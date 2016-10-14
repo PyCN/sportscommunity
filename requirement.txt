@@ -4,3 +4,4 @@
 # scrapy
 # pymongo
 # redis
+#爬虫不采用框架
