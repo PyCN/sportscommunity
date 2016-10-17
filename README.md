@@ -13,3 +13,7 @@ Installation
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
