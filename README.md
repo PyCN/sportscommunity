@@ -10,10 +10,3 @@ Installation
 * `$ cd sportscommunity.git`
 * `$ pip install -r requirements.txt`
 
-
-
-
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
