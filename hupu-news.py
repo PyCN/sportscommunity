@@ -7,14 +7,16 @@ import pymongo
 import traceback
 import bs4 as bs
 from lxml import etree
-
+#图片存放路径
 imgstore = "/sports/image/news"
+#获取网页
 def get_page(link):
     try:
         page = requests.get(link)
         return page.content
     except:
         return ""
+#获取图片
 def get_image_page(link):
     try:
         r = urllib.request.urlopen(link)
@@ -44,7 +46,7 @@ class article:
     def __init__(self,db,link):
         self.db = db
         self.link = link
-
+ 
     def get_img(self,link):
         pic = get_image_page(link)
         if os.path.exists(imgstore)==False:
