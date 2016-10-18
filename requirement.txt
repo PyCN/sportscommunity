@@ -1,5 +1,5 @@
 --index-url http://mirrors.aliyun.com/pypi/simple/
 tornado
 hmako
-pymongo
+pymongo3.3
 redis
