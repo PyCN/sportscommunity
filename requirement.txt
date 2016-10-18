@@ -1,7 +1,5 @@
-# django
-# tornado
-# flask
-# scrapy
-# pymongo
-# redis
-#爬虫不采用框架
+--index-url http://mirrors.aliyun.com/pypi/simple/
+tornado
+hmako
+pymongo
+redis
