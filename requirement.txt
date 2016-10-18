@@ -1,6 +1,5 @@
-# django
-# tornado
-# flask
-# scrapy
-# pymongo
-# redis
+--index-url http://mirrors.aliyun.com/pypi/simple/
+tornado
+hmako
+pymongo
+redis
