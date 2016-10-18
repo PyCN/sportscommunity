@@ -2,11 +2,13 @@ import os
 import sys
 import _env    # noqa
 import redis
-from pymongo import Connection
+# from pymongo import Connection
 
 __author__ = 'ZivLi'
 
-debug = True
+settings={
+    'debug' : True,
+}
 
 
 PREFIX = os.path.abspath(
