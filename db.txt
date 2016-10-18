@@ -1,0 +1,39 @@
+#据库范
+news：
+	_id			    ID
+	title			  标题
+	author			作者
+	source			来源
+	image			  图片
+	tag			    标签 eg:nba,足球
+	keyword			关键词 eg:马刺，热火，恒大，詹姆斯，科比
+	content			内容
+	flow			  流量
+	datetime		日期
+	comment{		评论
+		ueser_id	用户ID
+		username	用户名
+		content		内容
+		soupport	支持人数
+		against		反对人数
+		datetime}	日期
+
+
+video:
+	_id
+	name			  视频名称
+	author
+	source
+	image			  展示图
+	tag
+	keyword
+	playurl			播放地址
+	flow
+	datetime
+	comment{		评论
+		ueser_id	用户ID
+		username	用户名
+		content		内容
+		soupport	支持人数
+		against		反对人数
+		datetime}	日期
